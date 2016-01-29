@@ -210,6 +210,7 @@
   <ItemGroup>
     <Content Include="Content\background.png" />
     <Content Include="Content\background_r.png" />
+    <Content Include="Content\background_r2.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
