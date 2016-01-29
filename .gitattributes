@@ -1,0 +1,10 @@
+* text=auto
+*.cs        eol=crlf
+*.cshtml    eol=crlf
+*.csproj -text merge=union
+*.sln -text merge=union
+
+
+
+
+
