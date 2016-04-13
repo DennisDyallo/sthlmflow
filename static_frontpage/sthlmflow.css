@@ -1,0 +1,70 @@
+body {
+	background-color: black;
+    overflow-y:scroll;
+
+}
+.container {
+	/*width:100%;*/
+	height:auto;
+
+}
+header#main-header h1 {
+	display:none;
+}
+#main-header {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.header-image {
+	width:768px;
+	height:412px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+.centered-content {
+    display:flex;
+    justify-content:flex-end;
+}
+
+.main-content {
+	border-top: 1px solid rgb(127, 0, 0);
+	border-top: 1px solid rgba(255, 0, 0, .3);
+	-webkit-background-clip: padding-box; /* for Safari */
+	background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+	padding-top:9px;
+}
+nav {
+	display:flex;
+	justify-content: center;
+}
+
+.navbar-inverse {
+	background-color: rgb(127, 0, 0);
+	background-color: rgba(120, 120, 120, .2);
+}
+.footer {
+  position:fixed;
+  bottom: 15px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 15px;
+}
+.nodisplay {
+    display:none;
+}
+
+.article:last-child {
+    padding-bottom:20px;
+}
+
+#section-newsposts {
+
+    /*background-color: rgb(127, 0, 0);
+	background-color: rgba(255, 0, 0, .1);*/
+    max-width: 450px;
+    float:left;
+}
+article > p {
+    color:#FFF;
+}
