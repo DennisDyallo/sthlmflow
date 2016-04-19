@@ -59,6 +59,24 @@ nav {
 	background-color: rgba(120, 120, 120, .2);
 }
 
+
+.navbar-title{
+	color: #FFF;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+	display:block;
+}
+
+@media screen and (min-width: 768px){
+	.navbar-title{
+		display:none;
+	}
+}
+
+.footer {
+  margin-top:30px;
+}
 @media screen and (min-width: 768px){
 	.footer{
 		margin-top:0;
@@ -69,10 +87,7 @@ nav {
 		height: 15px;
 	}
 }
-.footer {
-  margin-top:30px;
 
-}
 .nodisplay {
     display:none;
 }
