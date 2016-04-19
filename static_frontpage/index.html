@@ -18,28 +18,45 @@
         </style>
     </head>
     <body>
-        <div class="container-fluid">
-			<div class="col-md-1">Left</div>
-            <div class="col-md-10">
-                <header id="main-header">
-                    <h1>Stockholm Flow</h1>
-                    <img class="header-image img-rounded" src="wallpaper.jpg" alt="Stockholm Flow Logo" />
-                </header>
-            </div>
-			<div class="col-md-1">Right</div>
-        </div>
+
         <div class="container">
             <main class="main-content">
-                <nav class="navbar navbar-inverse">
+
+                <header id="main-header">
+                    <h1 class="sr-only">Stockholm Flow</h1>
+                    <img class="header-image img-rounded" src="wallpaper.jpg" alt="Stockholm Flow Logo" />
+                </header>
+           
+			
+<!--                 <nav class="navbar navbar-inverse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Nyheter</a></li>
                         <li><a href="about.html">Föreningen</a></li>
                         <li><a href="contact.html">Kontakt</a></li>
                     </ul>
-                </nav>
+                </nav> -->
+				<nav class="navbar navbar-inverse">
+					<div class="container-fluid">
+					  <div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						  <span class="sr-only">Öppna meny</span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						</button>
+					  </div>
+					  <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+						<ul class="nav navbar-nav">
+						  <li class="active"><a href="index.htm">Nyheter</a></li>
+						  <li><a href="about.html">Föreningen</a></li>
+						  <li><a href="contact.html">Kontakt</a></li>
+						</ul>
+					  </div><!--/.nav-collapse -->
+					</div><!--/.container-fluid -->
+			  </nav>
                 <section id="section-newsposts">
-                    <h2 class="nodisplay">Nyheter</h2>
-                    <article class="article col-sm-12">
+                    <h2 class="sr-only">Nyheter</h2>
+                    <article class="article col-xs-12">
                         <header>
                             <h3>Årsmöte</h3>
                         </header>
@@ -48,7 +65,7 @@
                         <p><time datetime="2016-04-14">2016-04-14</time></p>
                     </article>
 
-                    <article class="article col-sm-12">
+                    <article class="article col-xs-12">
                         <header>
                             <h3>Sommaren var en succé</h3>
                         </header>
@@ -57,7 +74,7 @@
                         <p><time datetime="2016-07-16">2016-07-16</time></p>
                     </article>
 
-                    <article class="article col-sm-12">
+                    <article class="article col-xs-12">
                         <header>
                             <h3>Inomhusträningen igång</h3>
                         </header>
@@ -65,6 +82,7 @@
                         /Styrelsen
                         <p><time datetime="2015-11-14">2015-11-14</time></p>
                     </article>
+					Visar sida 1 av 
                 </section>
             </main>
         </div>
@@ -74,4 +92,6 @@
                 </div>
             </footer>
     </body>
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
 </html>

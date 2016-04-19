@@ -1,6 +1,7 @@
 body {
 	background-color: black;
     overflow-y:scroll;
+	overflow-x:hidden;
 
 }
 .container {
@@ -8,19 +9,19 @@ body {
 	height:auto;
 
 }
-header#main-header h1 {
-	display:none;
-}
+
 #main-header {
 	margin-top:10px;
 	margin-bottom:10px;
 }
 .header-image {
-	width:768px;
+	max-width:768px;
 	height:412px;
+	/* position:relative; */
+	/* left:50%; */
 	margin-left: auto;
 	margin-right: auto;
-	display:block;
+	display:block; 
 }
 .centered-content {
     display:flex;
@@ -44,7 +45,7 @@ nav {
 	background-color: rgba(120, 120, 120, .2);
 }
 .footer {
-  position:fixed;
+  position:relative;
   bottom: 15px;
   width: 100%;
   /* Set the fixed height of the footer here */
