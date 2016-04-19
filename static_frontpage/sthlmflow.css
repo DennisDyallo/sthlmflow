@@ -88,10 +88,6 @@ nav {
 	}
 }
 
-.nodisplay {
-    display:none;
-}
-
 .article:last-child {
     padding-bottom:20px;
 }
